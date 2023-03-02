@@ -1,0 +1,30 @@
+.bg-darklategrey{
+    background-color: rgba(42, 190, 143, 0.011);
+}
+body{background-color:rgb(33,37,41);}
+.box{
+    background-image: url(/public/media/BountifulAlienatedFugu-size_restricted.gif);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.separate{
+    border-bottom: solid 2px rgb(168, 166, 166);
+}
+.button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: #000;
+    box-shadow: 0 0 6px 0 rgba(136, 51, 210, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #f36363, #c122bb);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    /* box-shadow: 2px 1000px 1px #fff inset; */
+}
+.button:hover {
+    box-shadow: none;
+    color: white;
+}
